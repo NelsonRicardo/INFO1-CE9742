@@ -1,0 +1,383 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.clear {
+	clear: both;
+}
+html{
+	overflow-y: scroll;
+}
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+a {
+	text-decoration: none;
+}
+p {
+	padding: 10px 0;
+}
+h1 {
+	padding-top: 5px;
+	padding-left: 10px;
+	float: left;
+	text-shadow: 5px 5px 5px blue;
+}
+h5 {
+	padding: 10px 5px;
+}
+ul {
+	padding-left: 30px;
+}
+textarea {
+	width: 200px;
+}
+table {
+	border-collapse:collapse;
+	width: 568px;
+	background-color: white;
+}
+table, td {
+	border: 1px solid black;
+}
+th {
+	width: 80px;
+}
+td {
+	height: 80px;
+	padding: 1px;
+	vertical-align: top;
+}
+table a,
+table p {
+	font-size: 0.85em;
+}
+span.curr_month {
+	font-size: 30px;
+}
+.page_container {
+	background-color: DeepSkyBlue;
+	width: 800px;
+	min-height: 100%;
+	margin: auto;
+	border: 1px solid black;
+}
+.page_top {
+	height: 125px;
+	background-color: DodgerBlue;
+}
+.img_wrapper {
+	background-color: white;
+	width: 180px;
+}
+.page_top a {
+	color: black;
+}
+.login {
+	width: 200px;
+	padding: 5px 10px 0 0;
+	font-size: 12px;
+	float: right;
+}
+.login h3 {
+	float: left;
+	padding: 0;
+}
+.login p {
+	float: right;
+	padding: 0;
+}
+.login input[type="submit"] {
+	margin-left: 85px;
+}
+.login label {
+	float: left;
+	width: 75px;
+	padding-right: 10px;
+	text-align: right;
+	clear: both;
+}
+.login input[type="text"],
+.login input[type="password"] {
+	width: 100px;
+	float: left;
+	margin-bottom: 5px;
+	height: 12px;
+}
+.login a {
+	color: Cyan;
+}
+.err_msg {
+	color: red;
+}
+.login .err_msg {
+	text-align: center;
+	clear: both;
+}
+.img_wrapper,
+.h1_wrapper {
+	float: left;
+	min-height: 125px;
+}
+.page_top img {
+	margin: 15px;
+	border: 0;
+}
+.nav_top {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	clear: both;
+}
+ul.menu {
+	padding-left: 20px;
+	height: 30px;
+	background: #CCCCCC;
+	list-style: none;
+}
+ul.menu li {
+	float: left;
+	width: 125px;
+	text-align: center;
+	margin-right: 1px;
+}
+ul.menu a {
+	display: block;
+	height: 28px;
+	padding: 0 20px;
+	line-height: 28px;
+	color: black;
+	margin-top: 1px;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-topleft: 10px;
+}
+ul.menu a {
+	background-color: LightSkyBlue;
+}
+ul.menu a:hover {
+	background-color: SteelBlue;
+}
+.index_pg .m_index,
+.team_pg .m_team,
+.locations_pg .m_locations,
+.events_pg .m_events,
+.gallery_pg .m_gallery,
+.contact_pg .m_contact,
+.index_pg .m_index:hover,
+.team_pg .m_team:hover,
+.locations_pg .m_locations:hover,
+.events_pg .m_events:hover,
+.gallery_pg .m_gallery:hover,
+.contact_pg .m_contact:hover {
+	height: 29px;
+	background-color: DeepSkyBlue;
+	cursor: default;
+}
+.page_left {
+	float: left;
+	padding: 20px;
+	width: 570px;
+}
+.page_right {
+	float: right;
+	width: 144px;
+	padding: 10px;
+}
+.update_wrapper {
+	width: 122px;
+	border: 1px solid black;
+	margin: auto;
+	background-color: white;
+}
+.update_wrapper h3 {
+	text-align: center;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted black;
+}
+.corp_update {
+	height: 240px; 
+	width: 120px;
+}
+.corp_update p {
+	font-size: 0.75em;
+	padding: 0 5px;
+}
+.page_footer {
+	background-color: #CCCCCC;
+	clear: both;
+	text-align: center;
+	border-top: 1px solid black;
+	font-size: 12px;
+}
+.form_container,
+.form_footer {
+	width: 450px;
+}
+.form_container {
+	margin: auto;
+}
+.form_footer {
+	margin: 5px 0 20px 0;
+}
+.form_user {
+	margin: 15px 0 0 0;
+	padding: 20px 0 20px 10px;
+	border: 1px solid black;
+}
+.form_user label {
+	float: left;
+	width: 120px;
+	padding-right: 10px;
+	text-align: right;
+}
+.form_user input[type="text"],
+.form_user input[type="password"],
+.form_user input[type="file"],
+.form_user input[type="email"] {
+	float: left;
+	width: 200px;
+	margin-bottom: 20px;
+}
+.form_user input[type="submit"] {
+	margin-left: 130px;
+	margin-top: 5px;
+}
+ul.drawers {
+	width: 500px;
+	margin: auto;
+}
+ul.drawers li {
+	list-style: none;
+}
+.drawer-handle {
+	cursor: pointer;
+	color: LightBlue;
+	background-color: Blue; 
+	border-top: 2px solid SteelBlue;
+}
+ul.drawers {
+	padding-left: 0;
+}
+.drawer img {
+	float: left;
+	width: 150px;
+	padding: 10px;
+}
+.drawer p {
+	padding-right: 10px;
+}
+.drawer h3 {
+	padding: 2px 5px;
+	clear: both;
+}
+img.team_photo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	border: 1px solid black;
+}
+.slideshow {
+	height: 407px; 
+	width: 532px; 
+	margin: auto
+}
+.slideshow img {
+	padding: 15px;
+	border: 1px solid #ccc;
+	background-color: #eee;
+}
+.nav {
+	width: 570px;
+	margin: 15px;
+}
+.nav li {
+	width: 50px;
+	float: left;
+	margin: 8px;
+	list-style: none;
+}
+.nav a {
+	width: 50px;
+	padding: 3px;
+	display: block;
+	border: 1px solid #ccc;
+}
+.nav li.activeSlide a {
+	background: blue;
+}
+.nav a:focus {
+	outline: none;
+}
+.nav img {
+	border: none;
+	display: block;
+}
+.skyscraper {
+	width: 120px;
+	height: 240px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	border: 1px solid #333;
+	background: purple;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 5px;
+}
+p.tiny {
+	font-size:8px;
+}
+.ad_wrapper {
+	width: 122px;
+	height: 242px;
+	margin: 20px auto;
+	color: white;
+	display: block;
+}
+.required {
+	border-color:red;
+}
+.register_pg .unlogged,
+.contact_pg .unlogged,
+.gallery_pg .update_wrapper {
+	display: none;
+}
+.tooltip {
+	border-bottom: 1px dotted #000000;
+	color: #000000; outline: none;
+	cursor: help; text-decoration: none;
+	position: relative;
+}
+.tooltip span {
+	margin-left: -999em;
+	position: absolute;
+}
+.tooltip:hover span {
+	position: absolute;
+	left: 1em;
+	top: 2em;
+	z-index: 99;
+	margin-left: 0;
+	width: 200px;
+	padding: 0.8em 1em;
+	background-color: BlanchedAlmond;
+	border: 1px solid Gold;
+}
+.tooltip:hover img {
+	border: 0;
+	margin: -10px 0 0 -55px;
+	float: left;
+	position: absolute;
+}
+.tooltip:hover em {
+	font-family: Candara, Tahoma, Geneva, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	display: block;
+	padding: 0.2em 0 0.6em 0;
+}
